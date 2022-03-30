@@ -1,0 +1,27 @@
+.main-header{
+  height: 3.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #29b9a1;
+}
+.logo-container{
+  align-self: center;
+}
+.header-logo{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.header-list {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.header-list .link{
+  margin-right: 1rem;
+  text-decoration: inherit;
+  align-self: center;
+}
